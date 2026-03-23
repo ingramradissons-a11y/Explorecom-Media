@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explorecom Media</title>
+  <meta name="description" content="Explorecom Media creates viral short-form content formats for brands that want more reach, stronger engagement, and better TikTok performance." />
+  <style>
+    :root{
+      --bg:#0b1020;
+      --bg2:#10182d;
+      --card:rgba(255,255,255,0.06);
+      --line:rgba(255,255,255,0.1);
+      --text:#f6f7fb;
+      --muted:#b8c0d9;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, Arial, Helvetica, sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(125,211,252,.18), transparent 28%),
+        radial-gradient(circle at bottom right, rgba(250,204,21,.10), transparent 25%),
+        linear-gradient(180deg, var(--bg), var(--bg2));
+      line-height:1.6;
+    }
+    a{text-decoration:none;color:inherit}
+    .container{max-width:1120px;margin:0 auto;padding:0 24px}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+    .brand{font-weight:800;letter-spacing:.02em;font-size:20px}
+    .pill{
+      display:inline-block;padding:8px 14px;border:1px solid var(--line);
+      border-radius:999px;background:rgba(255,255,255,0.04);font-size:13px;color:var(--muted)
+    }
+    .hero{padding:44px 0 72px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}
+    h1{
+      font-size:clamp(40px, 6vw, 72px);
+      line-height:1.05;margin:18px 0 18px;font-weight:850;letter-spacing:-0.03em;
+    }
+    .lead{font-size:19px;color:var(--muted);max-width:760px}
+    .buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+    .btn{
+      padding:14px 22px;border-radius:16px;font-weight:700;display:inline-block;
+      border:1px solid var(--line);transition:.2s ease;
+    }
+    .btn.primary{background:#fff;color:#0b1020}
+    .btn.secondary{background:rgba(255,255,255,0.04)}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .card{
+      background:var(--card);border:1px solid var(--line);border-radius:24px;
+      padding:24px;backdrop-filter: blur(6px);
+    }
+    .stat-value{font-size:34px;font-weight:800}
+    .stat-label{font-size:13px;color:var(--muted);margin-top:6px}
+    section{padding:26px 0 56px}
+    .section-title{font-size:34px;line-height:1.15;margin:10px 0 12px}
+    .section-kicker{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.22em}
+    .section-sub{color:var(--muted);max-width:760px}
+    .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .service-title{font-size:22px;font-weight:700;margin-bottom:10px}
+    .muted{color:var(--muted)}
+    ul.clean{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    ul.clean li{
+      background:rgba(255,255,255,0.04);border:1px solid var(--line);
+      border-radius:16px;padding:14px 16px;color:#e8edf9
+    }
+    .portfolio-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:24px}
+    .portfolio-link{
+      display:block;
+      background:rgba(255,255,255,0.05);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:16px 18px;
+      color:#f6f7fb;
+      font-weight:600;
+      transition:.18s ease;
+    }
+    .portfolio-link:hover{background:rgba(255,255,255,0.10);transform:translateY(-1px)}
+    .footer{padding:26px 0 60px;color:var(--muted);font-size:14px}
+    .contact-box{
+      background:linear-gradient(135deg, rgba(125,211,252,.12), rgba(250,204,21,.08));
+      border:1px solid var(--line);border-radius:26px;padding:28px;
+    }
+    @media (max-width:900px){
+      .hero,.grid-2,.portfolio-grid{grid-template-columns:1fr}
+      .stats{grid-template-columns:1fr}
+      ul.clean{grid-template-columns:1fr}
+      .nav{gap:12px;align-items:flex-start;flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand">Explorecom Media</div>
+      <a class="pill" href="mailto:globestudioo@gmail.com">globestudioo@gmail.com</a>
+    </div>
+
+    <div class="hero">
+      <div>
+        <span class="pill">Viral short-form content for brands</span>
+        <h1>Short-Form Content, Strategy & Growth</h1>
+        <p class="lead">
+          Explorecom Media creates viral TikTok, Reels, and short-form content formats built for reach,
+          retention, and audience curiosity. The focus is not just posting more content — it is building
+          content that performs.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="mailto:globestudioo@gmail.com">Work With Me</a>
+          <a class="btn secondary" href="#portfolio">View Portfolio</a>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="card">
+          <div class="stat-value">650M+</div>
+          <div class="stat-label">Total Views</div>
+        </div>
+        <div class="card">
+          <div class="stat-value">550K+</div>
+          <div class="stat-label">Followers</div>
+        </div>
+        <div class="card">
+          <div class="stat-value">900+</div>
+          <div class="stat-label">Videos Published</div>
+        </div>
+      </div>
+    </div>
+
+    <section id="services">
+      <div class="section-kicker">Services</div>
+      <h2 class="section-title">What Explorecom Media does</h2>
+      <p class="section-sub">
+        Designed for brands that want better short-form ideas, stronger format strategy, and content
+        built around what actually performs on modern platforms.
+      </p>
+
+      <div class="grid-2" style="margin-top:24px;">
+        <div class="card">
+          <div class="service-title">TikTok Content Strategy</div>
+          <div class="muted">Viral short-form strategy built around hooks, retention, repeatable series formats, and audience behavior.</div>
+        </div>
+        <div class="card">
+          <div class="service-title">Short-Form Video Concepts</div>
+          <div class="muted">Scroll-stopping ideas for TikTok, Reels, and Shorts tailored to brand goals and content style.</div>
+        </div>
+        <div class="card">
+          <div class="service-title">Viral Format Development</div>
+          <div class="muted">Custom formats for facts, comparisons, rankings, travel, geography, and curiosity-driven content.</div>
+        </div>
+        <div class="card">
+          <div class="service-title">Social Media Growth Support</div>
+          <div class="muted">Content planning, structure, optimization, and viral format thinking for brand accounts.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="section-kicker">Portfolio</div>
+      <h2 class="section-title">Selected video examples</h2>
+      <p class="section-sub">
+        Click any example below to open the original TikTok video.
+      </p>
+      <div class="portfolio-grid">
+        <a class="portfolio-link" href="https://vm.tiktok.com/ZGduf9c4F/" target="_blank" rel="noopener noreferrer">Video Example 1</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGdufQNff/" target="_blank" rel="noopener noreferrer">Video Example 2</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGdufrkV3/" target="_blank" rel="noopener noreferrer">Video Example 3</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGduf5X7u/" target="_blank" rel="noopener noreferrer">Video Example 4</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGduf5JUn/" target="_blank" rel="noopener noreferrer">Video Example 5</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGdufFuRx/" target="_blank" rel="noopener noreferrer">Video Example 6</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGduf57XV/" target="_blank" rel="noopener noreferrer">Video Example 7</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGdufUme4/" target="_blank" rel="noopener noreferrer">Video Example 8</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGdufU1oe/" target="_blank" rel="noopener noreferrer">Video Example 9</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGdufaoge/" target="_blank" rel="noopener noreferrer">Video Example 10</a>
+<a class="portfolio-link" href="https://vm.tiktok.com/ZGdufhS6Q/" target="_blank" rel="noopener noreferrer">Video Example 11</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="grid-2">
+        <div class="card">
+          <div class="section-kicker">Why it works</div>
+          <h2 class="section-title" style="font-size:30px;">Built around viral format thinking</h2>
+          <p class="muted">
+            Designed around what performs on modern platforms — not around unnecessary visual complexity.<br><br>
+            The goal is scalable content that drives reach, retention, and repeatable growth.
+          </p>
+        </div>
+        <div class="card">
+          <div class="section-kicker">Best-performing styles</div>
+          <h2 class="section-title" style="font-size:30px;">High-Performing Content Formats</h2>
+          <ul class="clean">
+            <li>Travel, destination & culture formats</li>
+            <li>Country & region comparisons</li>
+            <li>Guess-based geography formats</li>
+            <li>Curiosity-driven fact formats</li>
+            <li>Ranking & comparison formats</li>
+            <li>Map and border-based formats</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="grid-2">
+        <div class="card">
+          <div class="section-kicker">Ideal fit</div>
+          <h2 class="section-title" style="font-size:30px;">Best for travel, geography, and lifestyle brands</h2>
+          <p class="muted">
+            Especially strong fit for tourism, travel, geography-led concepts, destination content,
+            and brands that want information delivered in a more interesting way.
+          </p>
+        </div>
+        <div class="contact-box">
+          <div class="section-kicker">Contact</div>
+          <h2 class="section-title" style="font-size:30px;">Let’s build something people actually watch</h2>
+          <p class="muted">
+            For collaborations, content strategy, or short-form content support:
+          </p>
+          <div style="margin-top:18px;">
+            <a class="btn primary" href="mailto:globestudioo@gmail.com">globestudioo@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      Explorecom Media — Viral short-form content strategy
+    </div>
+  </div>
+</body>
+</html>
